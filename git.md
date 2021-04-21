@@ -6,6 +6,8 @@ categories: git
 tags: git基础使用
 ---
 
+# git使用
+
 git安装
 ---
 
@@ -35,7 +37,7 @@ git config --global user.email "email@example.com"
 链接到远程库
 ---
 
-1.先在远程如github中创建一个远程仓库（步骤网站提供）
+1. 先在远程如github中创建一个远程仓库（步骤网站提供）
 
 由于你的本地Git仓库和GitHub仓库之间的传输是通过SSH加密的
 
