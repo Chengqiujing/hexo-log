@@ -30,6 +30,8 @@ git config --global user.email "email@example.com"
 
 ---
 
+<!--more-->
+
 链接到远程库
 ---
 
