@@ -1,7 +1,7 @@
 ---
-title: {{ title }}
-date: {{ date }}
+title: 模板
+date: 2021-04-21
 comments: true
-categories: 
-tags:
+categories: 模板
+tags: 模板
 ---
