@@ -1,5 +1,5 @@
 ---
-title: 测试
+title: 常用单词
 date: 2021-5-5
 comments: true
 categories: 英语
@@ -60,7 +60,10 @@ authorization 授权
 
 
 ```
+<!--more-->
+
 # B
+
 ```
 background 背景、后台（进程）
 backup 备份

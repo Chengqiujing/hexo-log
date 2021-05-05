@@ -1,12 +1,12 @@
 ---
-title: Hello World
+title: LocalDateTime和Date区别
 date: 2021-4-19
 comments: true
 categories: 网站
 tags: hexo
 ---
 
-## LocalDateTime和Date区别
+
 
 最后来看下在简单日期和时间类中最重要的一个:LocalDataTime。它是LocalDate和LocalTime的组合体，表示的是不带时区的 日期及时间。
 

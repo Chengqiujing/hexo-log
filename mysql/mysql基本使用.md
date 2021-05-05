@@ -6,8 +6,7 @@ categories: DB
 tags: mysql
 ---
 
-MySQL基本使用
-===
+
 
 ### 数据库选择与创建
 

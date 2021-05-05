@@ -6,8 +6,7 @@ categories: 中间件
 tags: redis基础
 ---
 
-redis基础
-===
+
 
 
 ### redis可以用来做什么

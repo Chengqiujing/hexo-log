@@ -1,12 +1,12 @@
 ---
-title: TCP数据推送
+title: TCP数据推送分享
 date: 2021-5-5
 comments: true
 categories: 协议
 tags: tcp
 ---
 
-# TCP数据推送开发分享
+
 
 **背景**：维景与数据中心的数据传输采用TCP方式，通过加密，按照数据中心的通讯协议封包发送。
 
