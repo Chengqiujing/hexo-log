@@ -42,6 +42,8 @@ mariadb-libs-5.5.44-2.el7.centos.x86_64
 [root@CDH-141 ~]# rm /etc/my.cnf
 ```
 
+<!-- more -->
+
 ## 二、检查mysql是否存在
 
 ```shell
