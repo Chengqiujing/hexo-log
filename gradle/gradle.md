@@ -1,10 +1,10 @@
-```
+---
 title: gradle
 date: 2021-8-15
 comments: true
 categories: 项目构建
 tags: gradle
-```
+---
 
 
 
@@ -65,7 +65,9 @@ doLast,<< ：任务执行之后的方法
 
 ## Gradle声明周期函数
 
-<img src="img/img_2.png"  /> 
+{% asset_img img/img_2.png.png %} 
+
+<img src="gradle/img/img_2.png"  />  
 
 
 
@@ -343,7 +345,9 @@ publishing {
 
 3. **执行发布**
 
-![](img/img_5.png) 
+{% asset_img img/img_5.png.png %} 
+
+![](gradle/img/img_5.png) 
 
 generatePomFileFor**Core**Publication : 生成pom文件
 
@@ -428,7 +432,9 @@ tomcat {
 
 **5.启动Tomcat,运行项目**
 
-![](img/img_6.png) 
+{% asset_img img/img_6.png.png %} 
+
+![](gradle/img/img_6.png) 
 
 tomcatJasper: 将jsp转成class 
 
@@ -479,7 +485,9 @@ buildscript {
 
 **2.启动gradle**
 
-![](img/img_7.png) 
+{% asset_img img/img_7.png %} 
+
+![](gradle/img/img_7.png) 
 
 **3.配置修改**
 
@@ -499,13 +507,17 @@ gretty {
 
 5.证书生成位置
 
-![](img/img_8.png) 
+{% asset_img img/img_8.png %} 
+
+![](gradle/img/img_8.png) 
 
 
 
 ## Gretty debug调试和导出可执行项目
 
-![](img/img_9.png)
+{% asset_img img/img_9.png %} 
+
+![](gradle/img/img_9.png)
 
 
 
@@ -517,7 +529,9 @@ gretty {
 
 1. 创建仓库目录，自己想要存储的位置，以.gradle作为最后目录，例如：D:\repository\gradleRepository\\.gradle
 
-   ![](img/img_4.png) 
+   {% asset_img img/img_4.png %} 
+
+   ![](gradle/img/img_4.png) 
 
    可以在目录下创建 文件gradle.properties
 
@@ -529,13 +543,15 @@ gretty {
 
    为了以防万一，我同时在c盘的用户目录下的.gradle文件夹也做了如上配置，例如C:\Users\chengqj\\.gradle
 
-2.  创建环境变量指向仓库目录
+2. 创建环境变量指向仓库目录
 
    环境变量名：GRADLE_USER_HOME
 
    环境变量值：D:\repository\gradleRepository\\.gradle
 
-   ![](img/img_3.png) 
+   {% asset_img img/img_3.png %} 
+
+   ![](gradle/img/img_3.png) 
 
 **如上配置后，本地仓库目录就配置好了，我们还需要配置下全局中央仓库**
 
@@ -587,12 +603,16 @@ repositories {
    
 
    **Project**
+   
+   {% asset_img img/img.png %} 
 
-![](img\img.png) 
+![](gradle/img/img.png) 
 
 **Task**
 
-![](img\img_1.png) 
+{% asset_img img/img_1.png %} 
+
+![](gradle/img/img_1.png) 
 
 我想看到这里应该就明白了这是什么意思了 
 
