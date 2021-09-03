@@ -15,6 +15,8 @@ tags: groovy
 
 GroovyYuFa.groovy
 
+<!-- more -->
+
 ```groovy
 package btbullet.yufa
 
@@ -41,7 +43,7 @@ package btbullet.yufa
      6. 字段可以使用点来获取,无访问权限的也可以使用getter/setter来操作
      7. 方法可以省略return关键字,自动检索最后一行的结果作为返回值
      8. 空值比较不会有NullPointerException
-<!-- more -->
+
      Groovy的高级特性
      1. assert断言:可以使用assert代替之前java的断言语句
      2. 可选类型: 可使用类JavaScript的弱类型,可使用 def 来表示任意类型

@@ -65,7 +65,7 @@ doLast,<< ：任务执行之后的方法
 
 ## Gradle声明周期函数
 
-{% asset_img img/img_2.png.png %} 
+{% asset_img img/img_2.png %} 
 
 <img src="gradle/img/img_2.png"  />  
 
@@ -345,7 +345,7 @@ publishing {
 
 3. **执行发布**
 
-{% asset_img img/img_5.png.png %} 
+{% asset_img img/img_5.png %} 
 
 ![](gradle/img/img_5.png) 
 
@@ -432,7 +432,7 @@ tomcat {
 
 **5.启动Tomcat,运行项目**
 
-{% asset_img img/img_6.png.png %} 
+{% asset_img img/img_6.png %} 
 
 ![](gradle/img/img_6.png) 
 
